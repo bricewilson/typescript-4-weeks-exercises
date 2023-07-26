@@ -1,4 +1,4 @@
-class Person {
+export class Person {
 
   constructor(personName: string) {
     this.Name = personName;
@@ -21,7 +21,3 @@ class Person {
   }
 }
 
-let firstPerson: Person = new Person('Leigh Ann');
-firstPerson.Address = '101 Main. St.';
-
-firstPerson.PrintPersonInfo();
