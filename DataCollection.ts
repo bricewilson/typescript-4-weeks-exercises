@@ -8,8 +8,14 @@ export class DataCollection<T> {
 
 }
 
-let data = new DataCollection<string>();
-data.addItemToCollection('apple');
-data.addItemToCollection('orange');
-data.addItemToCollection('pear');
-console.log(data);
+let stringData = new DataCollection<string>();
+stringData.addItemToCollection('apple');
+stringData.addItemToCollection('orange');
+stringData.addItemToCollection('pear');
+console.log(stringData);
+
+let numberData = new DataCollection<number>();
+numberData.addItemToCollection(2);
+numberData.addItemToCollection(4);
+numberData.addItemToCollection(6);
+console.log(numberData);
